@@ -1,0 +1,33 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Generated processed datasets
+data/processed/
+
+# Generated trained models
+saved_models/
+
+# Keep existing results, but exclude temporary files
+*.log
+*.tmp
+.ipynb_checkpoints/
+
